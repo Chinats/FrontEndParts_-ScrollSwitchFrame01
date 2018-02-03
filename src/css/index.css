@@ -1,0 +1,100 @@
+/*! Thank you for checking my codes! | Chinatsu*/
+
+/* Reset
+========================================================================== */
+html{
+  font-size: 62.5%;/*10px*/
+  color: #333;
+}
+a{
+  color: #333;
+}
+
+/* Header
+========================================================================== */
+#home{
+  margin-top: 40px;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  padding: 10px;
+  color: #fff;
+  background-color: rgba(255,255,255,.6);
+  z-index: 20;
+}
+.st-Header_Logo img{
+  height: 20px;
+}
+.st-Header_MenuBtn{
+  width: 20px;
+  position: relative;
+}
+.st-Header_MenuBtn span{
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  border-top: 3px solid #333;
+  border-radius: 2px;
+}
+.st-Header_MenuBtn span:first-child{
+  top: 0px;
+}
+.st-Header_MenuBtn span:nth-child(2){
+  top: 8px;
+}
+.st-Header_MenuBtn span:nth-child(3){
+  top: 17px;
+}
+
+/* Section
+========================================================================== */
+.sw-section{
+  display: block;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.sw-Container__FixCenter{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+/* Home
+========================================================================== */
+.home-Title{
+  font-size: 4rem;
+  font-weight: bold;
+}
+.home-Title+p{
+  font-size: 2rem;
+}
+#home-sec-1{
+  background: url(../img/home-img-1.jpg) top /cover fixed no-repeat;
+}
+#home-sec-2{
+  background: url(../img/home-img-2.jpg) top /cover fixed no-repeat;
+}
+#home-sec-3{
+  background: url(../img/home-img-1.jpg) top /cover fixed no-repeat;
+}
+#home-sec-4{
+  background: url(../img/home-img-2.jpg) top /cover fixed no-repeat;
+}
+
+/* Footer
+========================================================================== */
+footer{
+  text-align: center;
+  height: 40px;
+}
+footer p{
+  padding-top: 15px;
+  font-size: 1rem;
+}
